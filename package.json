@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-pagina-1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "watch": "sass --watch scss/app.scss:build/styles.css"
+  },
+  "dependencies": {
+    "imagemin": "^9.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.1",
+    "imagemin-webp": "^8.0.0",
+    "uuid": "^11.1.0"
+  }
+}

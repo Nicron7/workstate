@@ -1,0 +1,40 @@
+@use "var" as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+.cont {
+    width: 90%;
+    margin: 0 auto;
+}
+p {
+    font-size: 1.7rem;
+}
+h1, h2, h3{
+    margin: 0;
+    margin-bottom: 2rem;
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 3.8rem;
+}
+h3 {
+    font-size: 2.4rem;
+}
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.btn {
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
